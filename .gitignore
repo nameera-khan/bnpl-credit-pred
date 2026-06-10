@@ -1,0 +1,27 @@
+#Dataset too large for github
+data/raw/
+data/db/
+
+#Model artifacts
+model/*.pkl
+
+#Logs and monitoring outputs
+logs/
+monitoring/*.parquet
+monitoring/*.html
+
+#Python cache 
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+#environment
+.env
+*.env
+
+#MAC system file
+.DS_Store
+
+#MLflow
+mlruns/
